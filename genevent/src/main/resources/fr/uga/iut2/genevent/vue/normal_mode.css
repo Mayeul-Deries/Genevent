@@ -1,0 +1,78 @@
+
+.fondConnexion{
+    -fx-background-color: #00B4D8;
+    -fx-background-radius: 10px;
+}
+
+.fondConnexion2{
+    -fx-background-color: #023E8A;
+    -fx-background-radius: 10px;
+}
+
+.privacy{
+    -fx-background-color: #65abc2;
+    -fx-background-radius: 10px;
+}
+
+.entete{
+    -fx-background-color: #03045E;
+}
+
+.btnDeco{
+    -fx-background-color:  #03045E;
+    -fx-font-size: 13;
+}
+.btnDeco:hover{
+    -fx-text-fill: #00B4D8;
+}
+
+
+.fondMenu{
+    -fx-background-color: #023E8A;
+}
+
+.fondGlobal{
+    -fx-background-color: #00B4D8;
+}
+
+.btnNewEvent{
+    -fx-background-color: #00B4D8;
+    -fx-border-color: #CDD1D6;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+.btnMenu{
+    -fx-background-color: #023E8A;
+    -fx-background-radius: 0em;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 26;
+}
+
+.btnMenu:hover{
+    -fx-background-color: #00B4D8;
+    -fx-text-fill: #000000;
+}
+
+.btnMenu:focused{
+     -fx-background-color: #03045E;
+}
+
+.btnActuel{
+    -fx-background-color:  #0096C7;
+    -fx-border-color: #CDD1D6;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-background-radius: 0em;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 26;
+}
+
+.btnActuel:hover{
+    -fx-background-color:  #00B4D8;
+    -fx-text-fill: #000000;
+}
+
+.btnActuel:focused{
+    -fx-background-color:  #03045E;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+

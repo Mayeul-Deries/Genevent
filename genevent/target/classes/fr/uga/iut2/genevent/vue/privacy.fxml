@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="326.0" prefWidth="444.0" styleClass="fondGlobal" stylesheets="@normal_mode.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="100.0" prefWidth="386.0" spacing="60.0">
+         <children>
+            <ImageView fitHeight="65.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/logo.png" />
+               </image></ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox fillHeight="false" prefHeight="195.0" prefWidth="286.0" styleClass="privacy" stylesheets="@normal_mode.css">
+         <VBox.margin>
+            <Insets left="50.0" right="50.0" />
+         </VBox.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <TextArea editable="false" prefHeight="172.0" prefWidth="349.0" style="-fx-border-color: black;" text="Conditions générales d'utilisation : &#10;&#10;Préambule&#10;Les conditions générales de vente décrites ci-après détaillent les droits et obligations de Seavent et de son client dans le cadre de la vente de ses prestations de services.&#10;Toute prestation accomplie par Seavent implique donc l'adhésion sans réserve de l'acheteur aux présentes conditions générales de vente.&#10;Article 1 - Principes&#10;Ces conditions générales concernent les prestations de services fournis entre professionnels (prestataire / acheteur).&#10;Les présentes conditions générales expriment l'intégralité des obligations des parties. Elles constituent le socle unique de la relation commerciale entre les parties, et, en ce sens, l'acheteur est réputé les accepter sans réserve.&#10;Les présentes conditions générales de vente prévalent sur tout autre document, et notamment sur toutes conditions générales d'achat. Elles&#10;s'appliquent, sans restriction ni réserve, à tous les services rendus par le prestataire auprès des acheteurs de même catégorie.&#10;Le prestataire et l'acheteur conviennent que les présentes conditions générales régissent exclusivement leur relation. Le prestataire se réserve le droit de modifier ponctuellement ses conditions générales.&#10;Elles seront applicables dès leur mise en ligne.&#10;Si une condition de prestation de services venait à faire défaut, elle serait considérée être régie par les usages en vigueur dans le secteur de la&#10;vente à distance dont les sociétés ont leur siège en France.&#10;Les présentes conditions générales de vente sont communiquées à tout acheteur qui en fait la demande, afin de lui permettre de passer commande. Le fournisseur se réserve le droit de déroger à certaines clauses des présentes, en fonction des négociations menées avec l'acheteur, par&#10;l'établissement de conditions de vente particulières.&#10;Le prestataire peut, en outre, établir des conditions générales de vente catégorielles, dérogatoires aux présentes conditions générales de vente, en&#10;fonction du type d'acheteur considéré, selon des critères qui resteront objectifs. Les acheteurs répondant à ces critères se verront alors appliquer&#10;ces conditions générales de vente catégorielles.&#10;Les présentes conditions générales de vente sont applicables jusqu'au 23 juin 2023.&#10;&#10;" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></TextArea>
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="90.0" prefWidth="386.0" spacing="15.0">
+         <children>
+            <Button fx:id="btnAcceptCondition" mnemonicParsing="false" onAction="#onAcceptCondition" text="J'accepte les conditions d'utilisations">
+               <HBox.margin>
+                  <Insets bottom="15.0" right="15.0" />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
